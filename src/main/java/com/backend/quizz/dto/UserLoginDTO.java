@@ -1,4 +1,4 @@
-package com.backend.quizz.DTO;
+package com.backend.quizz.dto;
 
 public class UserLoginDTO {
     private String email;

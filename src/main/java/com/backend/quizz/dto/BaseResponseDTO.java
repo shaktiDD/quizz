@@ -1,10 +1,12 @@
-package com.backend.quizz.DTO;
+package com.backend.quizz.dto;
 
-public class AuthResponseDTO {
+public class BaseResponseDTO {
     private boolean success;
     private String message;
 
-    public AuthResponseDTO(boolean success, String message) {
+    public BaseResponseDTO() {}
+
+    public BaseResponseDTO(boolean success, String message) {
         this.success = success;
         this.message = message;
     }
